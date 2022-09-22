@@ -18,9 +18,9 @@
                     </h3>
                     <p>Phone: +09267569521</p>
                     <p>Email: kalikashop@gmail.com</p>
-                    <p>Facebook Page: <a href="https://facebook.com">KalikaShop</a></p>
-                    <p>Github: <a href="https://github.com">KalikaShop</a></p>
-                    <p>Twitter: <a href="https://twitter.com">the_KalikaShop</a></p>
+                    <p>Facebook Page: <a href="https://facebook.com"><span style="color: brown ">KalikaShop</span> </a></p>
+                    <p>Github: <a href="https://github.com"><span style="color: brown ">KalikaShop</span> </a></p>
+                    <p>Twitter: <a href="https://twitter.com"><span style="color: brown ">the_kalikaShop</span> </a></p>
                 </div>
             </div>
         </div>

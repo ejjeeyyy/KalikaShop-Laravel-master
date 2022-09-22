@@ -16,10 +16,10 @@ class ProductsTableSeeder extends Seeder
     {
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'laptop' . $i,
-                'slug' => 'laptop-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'EcoShirt' . $i,
+                'slug' => 'ecoshirt-' . $i,
+                'details' => 'Made with sustainable materials',
+                'price' => rand(100, 300),
                 'category_id' => 1,
                 'image' => 'products/dummy/image0.jpg',
                 'images' => '["products/dummy/image0.jpg", "products/dummy/image0.jpg", "products/dummy/image0.jpg"]',
@@ -29,10 +29,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Desktop' . $i,
-                'slug' => 'desktop-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'EcoShoes' . $i,
+                'slug' => 'shoes-' . $i,
+                'details' => 'Sustainable and fashionable shoes',
+                'price' => rand(1000, 2000),
                 'category_id' => 2,
                 'image' => 'products/dummy/image1.jpg',
                 'images' => '["products/dummy/image1.jpg", "products/dummy/image1.jpg", "products/dummy/image1.jpg"]',
@@ -42,10 +42,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Phone' . $i,
-                'slug' => 'phone-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Sustainable Shirt' . $i,
+                'slug' => 'ecoshirt2-' . $i,
+                'details' => 'Shirt made with sustainable materials',
+                'price' => rand(100, 300),
                 'category_id' => 3,
                 'image' => 'products/dummy/image2.jpg',
                 'images' => '["products/dummy/image2.jpg", "products/dummy/image2.jpg", "products/dummy/image2.jpg"]',
@@ -55,10 +55,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Tablet' . $i,
-                'slug' => 'tablet-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Eco Shoes 2.0' . $i,
+                'slug' => 'shoes2-' . $i,
+                'details' => 'Fashionable shoes made with sustainable materials',
+                'price' => rand(1000, 3000),
                 'category_id' => 4,
                 'image' => 'products/dummy/image3.jpg',
                 'images' => '["products/dummy/image3.jpg", "products/dummy/image3.jpg", "products/dummy/image3.jpg"]',
@@ -68,10 +68,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'TV' . $i,
-                'slug' => 'tv-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Bamboo Straw' . $i,
+                'slug' => 'utensil-' . $i,
+                'details' => 'Eco-friendly straws made with bamboo',
+                'price' => rand(20, 40),
                 'category_id' => 5,
                 'image' => 'products/dummy/image4.jpg',
                 'images' => '["products/dummy/image4.jpg", "products/dummy/image4.jpg", "products/dummy/image4.jpg"]',
@@ -81,10 +81,10 @@ class ProductsTableSeeder extends Seeder
         }
         for ($i=0; $i < 20; $i++) {
             Product::create([
-                'name' => 'Camera' . $i,
-                'slug' => 'camera-' . $i,
-                'details' => '15 inches 1TB SSD 16 GB RAM',
-                'price' => rand(1000, 9999),
+                'name' => 'Eco Flip flops' . $i,
+                'slug' => 'flops-' . $i,
+                'details' => 'Eco-friendly flip flops',
+                'price' => rand(100, 200),
                 'category_id' => 6,
                 'image' => 'products/dummy/image5.jpg',
                 'images' => '["products/dummy/image5.jpg", "products/dummy/image5.jpg", "products/dummy/image5.jpg"]',
